@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index",
+    "dev": "nodemon index",
+    "build": "npm build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0",
+    "sweetalert2": "^11.1.4"
   }
 }

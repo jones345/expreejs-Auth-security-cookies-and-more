@@ -1,5 +1,12 @@
 const passport = require('passport');
 const GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
+const LocalStrategy = require('passport-local').Strategy;
+const FacebookStrategy = require('passport-facebook').Strategy; 
+const LinkedInStrategy = require('passport-linkedin').Strategy;
+const GitHubStrategy = require('passport-github').Strategy;
+const  RememberMeStrategy = require('passport-remember-me').Strategy;
+const TwitterStrategy = require('passport-twitter').Strategy;
+
 const  GOOGLE_CLIENT_ID = '864091533668-ps240s91h4lleon5l11kdeok7teo7j2c.apps.googleusercontent.com'
 const GOOGLE_CLIENT_SECRET = 'Ti2Jo8ltRtR9OagmemiYlWVP'
 
